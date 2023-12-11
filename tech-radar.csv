@@ -1,4 +1,4 @@
-name,ring,quadrant,isNew,description,move,tags
+﻿name,ring,quadrant,isNew,description,move,tags
 Microservices,Adopt,Techniques,FALSE,,,architecture
 Micro Frontends,Assess,Techniques,TRUE,,,"architecture, frontend"
 Monolith,Hold,Techniques,FALSE,,OUT,architecture
@@ -47,6 +47,7 @@ ThoughtSpot,Assess,Platforms,TRUE,,IN,"slx-innovation, data-visualization"
 GitHub Advanced Security (for ADO),Assess,Tools,TRUE,,IN,"slx-innovation, security"
 C#,Adopt,languages-and-frameworks,FALSE,,,
 JavaScript,Adopt,languages-and-frameworks,FALSE,,,frontend
+TypeScript,Assess,languages-and-frameworks,FALSE,,,frontend
 Python,Trial,languages-and-frameworks,TRUE,,IN,
 jQuery,Assess,languages-and-frameworks,FALSE,,OUT,frontend
 YAML,Adopt,languages-and-frameworks,FALSE,,,
@@ -76,6 +77,8 @@ GitHub Copilot,Assess,Tools,TRUE,,IN,ai-ml
 Terraform,Hold,Tools,TRUE,,,
 makefile,Adopt,languages-and-frameworks,FALSE,,,
 Okta,Assess,Platforms,FALSE,,,"security, auth"
+Azure ARM,Adopt,Platforms,FALSE,,,
+Bicep,Assess,Platforms,FALSE,,,"slx-innovation"
 Azure Active Directory (Entra ID),Adopt,Platforms,FALSE,,,"security, auth"
 Azure AD B2C,Trial,Platforms,FALSE,,,"security, auth"
 Azure API Management Services,Adopt,Platforms,FALSE,,,
@@ -109,8 +112,10 @@ Aha,Adopt,Tools,FALSE,,,
 JIRA,Adopt,Tools,FALSE,,,
 Lucid Chart,Adopt,Tools,FALSE,,,
 Stack Overflow Teams,Assess,Tools,FALSE,,,
-Scribe,Trial,Tools,TRUE,,OUT,
-StackShare,Trial,Tools,TRUE,,OUT,
+Scribe,Assess,Tools,TRUE,,OUT,
+Azure Wiki,Trial,Tools,FALSE,,,
+Attlassian Confluence,Hold,Tools,TRUE,,,
+StackShare,Hold,Tools,TRUE,,OUT,
 Slack,Adopt,Tools,FALSE,,,
 Backstage (by Spotify),Hold,Tools,TRUE,,,
 GraphMaker.ai,Hold,Tools,TRUE,,,"slx-innovation, data-visualization"
